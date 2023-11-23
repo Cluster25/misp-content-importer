@@ -100,9 +100,9 @@ python3 /path/to/c25-misp-importer/c25-misp-importer/c25-misp-importer.py --help
 
 #### Import options
 - --reports → import report events
-- --report-start-date → import reports from a specific start date in the format of: ```dd/mm/yyyy hh:mm:ss```. Default is 1 year before the execution.
+- --report-start-date → import reports from a specific start date in the format of: ```dd/mm/yyyy hh:mm:ss```. Default is 1 month before the execution.
 - --indicators → import indicators in a single event for a specified time period.
-- --indicators-start-date → import only indicators from a specific start date in the format of: ```dd/mm/yyyy hh:mm:ss```. Default is 1 year before the execution.
+- --indicators-start-date → import only indicators from a specific start date in the format of: ```dd/mm/yyyy hh:mm:ss```. Default is 1 week before the execution.
 - --actors → imports all C25 existing actors generating an event per actor with detail information as objects and attributes.
 #### General options
 - --info → add more info to logs
